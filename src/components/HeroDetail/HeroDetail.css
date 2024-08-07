@@ -24,10 +24,12 @@
 
 .react-flow__node.film {
   background-color: #f4f3d3;
+  width: 250px;
 }
 
 .react-flow__node.starship {
   background-color: #f4d3d3;
+  width: 250px;
 }
 
 .react-flow__edge {

@@ -65,7 +65,7 @@ export const HeroDetail = ({ hero }) => {
         const filmNodes = validFilms.map((film, index) => ({
           id: `film-${film.id}`,
           data: { label: film.title },
-          position: { x: 250, y: index * 100 },
+          position: { x: 250, y: index * 70 },
           className: "film",
         }));
 
@@ -114,7 +114,7 @@ export const HeroDetail = ({ hero }) => {
               const starshipNode = {
                 id: `starship-${starship.id}-${filmId}`,
                 data: { label: starship.name },
-                position: { x: 500, y: filmId * 130 + index * 70 },
+                position: { x: 550, y: filmId * 70 + index * 50 },
                 className: "starship",
               };
 
