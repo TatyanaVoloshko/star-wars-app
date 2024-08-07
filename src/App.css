@@ -1,0 +1,16 @@
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/1567679.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+   font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+

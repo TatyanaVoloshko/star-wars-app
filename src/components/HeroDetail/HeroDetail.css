@@ -1,0 +1,71 @@
+.diagram-container {
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  position: relative;
+}
+
+.react-flow__node {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+.react-flow__node.hero {
+  background-color: #d3f4ff;
+}
+
+.react-flow__node.film {
+  background-color: #f4f3d3;
+}
+
+.react-flow__node.starship {
+  background-color: #f4d3d3;
+}
+
+.react-flow__edge {
+  stroke: #888;
+}
+
+.react-flow__controls-button {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
