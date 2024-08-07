@@ -35,9 +35,12 @@ export const HeroDetail = ({ hero }) => {
 
     // Function to fetch details from the API
     const fetchDetails = async () => {
-      const filmUrls = hero.films.map((filmNumber) => `/films/${filmNumber}/`);
+      const filmUrls = hero.films.map(
+        (filmNumber) => `https://sw-api.starnavi.io//films/${filmNumber}/`
+      );
       const starshipUrls = hero.starships.map(
-        (starshipNumber) => `/starships/${starshipNumber}/`
+        (starshipNumber) =>
+          `https://sw-api.starnavi.io//starships/${starshipNumber}/`
       );
 
       try {
