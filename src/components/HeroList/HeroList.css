@@ -66,8 +66,8 @@ header {
 .load-more-btn {
   display: block;
   margin: 1.25rem auto; /* 20px */
-  padding: 1.25rem 2.5rem; /* 10px 20px */
-  font-size: 1.2rem; /* 1.2em */
+  padding: 1.25rem 2.5rem; /* 20px 40px */
+  font-size: 1.2rem; /* 20px */
   color: yellow;
   background-color: rgba(0, 0, 0, 0.8);
   border: 2px solid yellow;

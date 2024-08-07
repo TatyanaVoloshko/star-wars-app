@@ -26,6 +26,7 @@ const Modal = ({ isOpen, onClose, children }) => {
     <div
       className="modal-overlay"
       onClick={onClose}
+      data-testid="modal-overlay"
     >
       <div
         className="modal-content"
